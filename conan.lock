@@ -1,0 +1,55 @@
+{
+ "graph_lock": {
+  "nodes": {
+   "0": {
+    "ref": "conan-model-exe/1.0.0-dev.1",
+    "requires": [
+     "1",
+     "2",
+     "3",
+     "4",
+     "5"
+    ],
+    "build_requires": [
+     "6",
+     "7"
+    ],
+    "path": "conanfile.py",
+    "context": "host"
+   },
+   "1": {
+    "ref": "jfalcou-eve/v2022.09.1#eb5d950453c73ced7ab93a4707d46528",
+    "context": "host"
+   },
+   "2": {
+    "ref": "fmt/9.1.0#811e918ca4b4e0b9ddd6d5a2883efa82",
+    "context": "host"
+   },
+   "3": {
+    "ref": "spdlog/1.11.0#1e0f4eb6338d05e4bd6fcc6bf4734172",
+    "requires": [
+     "2"
+    ],
+    "context": "host"
+   },
+   "4": {
+    "ref": "lyra/1.6.1#7ec368ee0f9ba9f34ae72e466d2b3b51",
+    "context": "host"
+   },
+   "5": {
+    "ref": "expected-lite/0.6.2#f68a9347533183c5f7d94da84092ad93",
+    "context": "host"
+   },
+   "6": {
+    "ref": "catch2/3.3.0#c32ac61507c276d690a1501c06b7c667",
+    "context": "host"
+   },
+   "7": {
+    "ref": "nanobench/4.3.9#d68a0a4ef5cbff109ed02e175bcd635f",
+    "context": "host"
+   }
+  },
+  "revisions_enabled": true
+ },
+ "version": "0.4"
+}

@@ -1,0 +1,11 @@
+name: "Setup Conan"
+description: "Install and configure the conan client for use in the model project"
+runs:
+  using: "composite"
+  steps:
+    - run: python3 -m pip install conan --upgrade
+      shell: bash
+    - run: conan config init --force
+      shell: bash
+    - run: conan config install -t dir .conan
+      shell: bash

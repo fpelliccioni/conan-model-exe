@@ -1,0 +1,3 @@
+conancenter https://center.conan.io true
+model https://taocpp.jfrog.io/artifactory/api/conan/model true
+
